@@ -202,7 +202,7 @@
                 imageCard.classList.add('image-card');
 
                 const img = document.createElement('img');
-                img.src = `images/${filename}`; // Path to your images folder
+                img.src = `${filename}`; // Path to your images folder
                 img.alt = filename.split('.')[0]; // Use filename as alt text
 
                 const title = document.createElement('div');
@@ -241,4 +241,5 @@
         });
     </script>
 </body>
+
 </html>

@@ -1,1 +1,1 @@
-myFolder/README.md
+images/.gitkeep
